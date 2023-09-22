@@ -1,0 +1,16 @@
+#python program to swap two variables/programa Python para intercambiar dos variables
+
+x = 5
+y = 10
+
+#To take inputs from the user/Tomar aportes de la usuaria.
+#x = input('enter value of x: ') /x = entrada('ingrese el valor de x: ')
+#y = input('enter value of y: ')
+
+#create a temporary variable and swap the values/crear una variable temporal e intercambiar los valores
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'. format(x))
+print('The value of x after swapping: {}'. format(y))
